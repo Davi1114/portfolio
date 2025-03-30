@@ -1,0 +1,189 @@
+body{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-height: 100%;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+.logomarca{
+  
+  max-width: 80px;
+  max-height: 80px;
+  grid-column: 4;
+  width: 100px;
+  height: 100px;
+}
+
+.paidetodos{
+  display: grid;
+  background-color: #343a40;
+  grid-column: 1/-1;
+}
+
+.fotoeu{
+  border-radius: 100px;
+  width: 120px;
+  max-width: 500px;
+}
+
+.titulo{
+  max-height: 100%;
+  padding: 30px;
+  color: #f2f2f2;
+  background-color: #212529;
+  grid-column: 2/-1;
+  text-align: center;
+  max-width: 100%;
+  
+}
+
+span{
+  color: #0081a7;
+}
+
+footer{
+  text-align: center;
+}
+
+.cabecalho2{
+  
+  text-align: end;
+  background-color: #212529;
+  grid-column: 1;
+}
+
+p{
+  color: #f2f2f2;
+}
+
+
+
+
+a{
+  color: #f2f2f2;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover{
+  color: #0081a7; 
+  text-decoration: none;
+}
+
+.h11{
+  max-width: 170px;
+  color: #f2f2f2;
+}
+.h11:hover{
+  color: #0081a7;
+}
+
+.h12{
+  max-width: 220px;
+  color: #f2f2f2;
+}
+.h12:hover{
+  color: #0081a7;
+}
+
+.h13{
+  
+ color: #f2f2f2;
+}
+.h13:hover{
+  
+  color: #0081a7;
+}
+
+.sobremim{
+  grid-column: 1/-1;
+  max-width: 750px;
+  margin: 30px;
+  text-align: start;
+  
+}
+
+.meusprojetos{
+  grid-column: 1/-1;
+  margin: 30px;
+}
+.footer{
+  max-width: 100%;
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: #212529;
+}
+
+
+
+.cabecalho{
+  border-bottom: solid 3px #0081a7;
+  grid-column: 1/-1;
+  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  text-align: end;
+  background-color:#212529;
+}
+
+.home{
+  margin-right: 20px;
+}
+
+.projetos{
+  margin-right: 20px;
+}
+
+
+.email{
+  border-radius: 5px;
+  width: 80px;
+}
+
+.email:hover{
+  border-radius: 5px;
+  width: 80px;
+  background-color: #0081a7;
+}
+
+
+
+.github{
+  border-radius: 5px;
+  width: 80px;
+  
+}
+
+.github:hover{
+  border-radius: 5px;
+  width: 80px;
+  background-color: #0081a7;
+}
+
+.whats{
+  width: 80px;
+  border-radius: 5px;
+}
+.whats:hover{
+  width: 80px;
+  background-color: #0081a7;
+}
+.linkedin{
+  border-radius: 5px;
+  width: 80px;
+}
+.linkedin:hover{
+  width: 80px;
+  background-color: #0081a7;
+}
+
+.pfooter{
+  margin: 30px;
+  text-align: start;
+}
